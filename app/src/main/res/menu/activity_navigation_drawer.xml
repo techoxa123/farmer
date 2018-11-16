@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/category"
+            android:icon="@mipmap/list"
+            android:title="Category" />
+        <item
+            android:id="@+id/market_price"
+            android:icon="@mipmap/tag"
+            android:visible="false"
+            android:title="Market Price" />
+        <item
+            android:id="@+id/weather_report"
+            android:icon="@drawable/ic_cloud_black_24dp"
+            android:title="Weather Report" />
+
+        <item
+            android:id="@+id/privacy"
+            android:icon="@mipmap/privacy"
+            android:title="Privacy Policy " />
+        <item
+            android:id="@+id/about"
+            android:icon="@mipmap/about"
+            android:title="About Us" />
+        <item
+            android:id="@+id/logout"
+            android:icon="@mipmap/logouttt"
+            android:title="Logout" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/feedback"
+                android:icon="@mipmap/feedback"
+                android:title="Feedback" />
+            <item
+                android:id="@+id/rating"
+                android:icon="@drawable/ic_rate_review_black_24dp"
+                android:title="Rating" />
+        </menu>
+    </item>
+
+</menu>

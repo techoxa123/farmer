@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/dilog_back"
+    tools:context="com.example.priya.farmingapp.Crop_Detail">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:background="@mipmap/back"
+        android:orientation="vertical">
+
+
+            <!--<com.jaredrummler.materialspinner.MaterialSpinner-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="Select"-->
+                <!--android:textColor="#000"-->
+                <!--android:textSize="16sp"-->
+                <!--android:background="@drawable/shapeemail"-->
+                <!--app:ms_dropdown_max_height="250dp"-->
+                <!--android:id="@+id/blood"-->
+                <!--app:ms_arrow_tint="#000"-->
+                <!--app:ms_background_color="#fff" />-->
+
+
+        <Spinner
+            android:id="@+id/spinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:ems="10"
+            android:textColor="#fff"
+            android:layout_margin="10dp"
+            android:padding="3dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/shapeemail"
+            android:textColorHint="#fff"/>
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPostalAddress"
+            android:ems="10"
+            android:id="@+id/priceedit"
+            android:drawableLeft="@drawable/ic_attach_money_black_24dp"
+            android:drawablePadding="10dp"
+            android:hint="Price"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:layout_margin="10dp"
+            android:padding="15dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/shapeemail"
+            android:layout_weight="0.10" />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:inputType="textPostalAddress"
+            android:id="@+id/description"
+            android:drawableLeft="@drawable/ic_description_black_24dp"
+            android:drawablePadding="10dp"
+            android:hint="Description"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:layout_margin="10dp"
+            android:padding="15dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/shapeemail"
+            android:layout_weight="0.10" />
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/upload"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:shadowColor="@android:color/transparent"
+            android:padding="15dp"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/shapelogin"
+            android:text="Upload"/>
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

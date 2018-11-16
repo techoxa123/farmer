@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">FarmingApp</string>
+    <string name="title_activity_navigation_drawer">NavigationDrawer</string>
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+    <string name="title_map">Weather</string>
+    <string name="title_chart">Chart</string>
+    <string name="title_chat">Message List</string>
+    <string name="title_profile">Profile</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_example">Example action</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_navigation_dash_board">NavigationDashBoard</string>
+    <string name="title_activity_navigation">Navigation</string>
+    <string name="nav_header_title">ABXXC</string>
+    <string name="nav_header_subtitle">9999999999</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="nav_header_address">Jaipur</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

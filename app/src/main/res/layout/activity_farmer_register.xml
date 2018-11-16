@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/back"
+    tools:context=".Register">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fitsSystemWindows="true">
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="25dp"
+            android:paddingLeft="24dp"
+            android:paddingRight="24dp"
+            android:weightSum="1">
+            <ImageView
+                android:layout_width="90dp"
+                android:layout_height="100dp"
+                android:src="@mipmap/login"
+                android:layout_gravity="center"/>
+            <!--  Name Label -->
+
+            <EditText android:id="@+id/nameedit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textCapWords"
+                android:background="@drawable/shapeemail"
+                android:padding="15dp"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                android:layout_margin="10dp"
+                android:layout_marginTop="15dp"
+                android:drawableLeft="@drawable/ic_person_outline_black_24dp"
+                android:drawablePadding="10dp"
+                android:hint="Name" />
+
+            <!-- Email Label -->
+
+            <EditText
+                android:id="@+id/emailedit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:padding="15dp"
+                android:background="@drawable/shapeemail"
+                android:drawableLeft="@drawable/ic_email_black_24dp"
+                android:drawablePadding="10dp"
+                android:hint="Email"
+                android:layout_marginTop="15dp"
+                android:inputType="textEmailAddress"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                android:textColorHighlight="@color/white"/>
+            <EditText
+                android:id="@+id/passwordedit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:padding="15dp"
+                android:background="@drawable/shapeemail"
+                android:drawableLeft="@drawable/ic_lock_outline_black_24dp"
+                android:hint="Password"
+                android:drawablePadding="10dp"
+                android:layout_marginTop="15dp"
+                android:inputType="textPassword"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                android:textColorHighlight="@color/white"/>
+            <EditText
+                android:id="@+id/cpasswordedit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:padding="15dp"
+                android:background="@drawable/shapeemail"
+                android:drawableLeft="@drawable/ic_lock_outline_black_24dp"
+                android:hint="Confirm Password"
+                android:drawablePadding="10dp"
+                android:layout_marginTop="15dp"
+                android:inputType="textPassword"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                android:textColorHighlight="@color/white"/>
+            <EditText android:id="@+id/mobileedit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:maxLength="10"
+                android:background="@drawable/shapeemail"
+                android:padding="15dp"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                android:layout_margin="10dp"
+                android:layout_marginTop="15dp"
+                android:drawableLeft="@drawable/ic_phone_in_talk_black_24dp"
+                android:drawablePadding="10dp"
+                android:hint="Mobile Number" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPostalAddress"
+                android:ems="10"
+                android:id="@+id/addresssedit"
+                android:drawableLeft="@drawable/ic_location_on_black_24dp"
+                android:drawablePadding="10dp"
+                android:drawableTint="#FFF"
+                android:hint="Address"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                android:layout_margin="10dp"
+                android:padding="15dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/shapeemail"
+                android:layout_weight="0.10" />
+
+         <Spinner
+             android:id="@+id/spinner"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:inputType="text"
+                android:ems="10"
+                android:textColor="#fff"
+                android:layout_margin="10dp"
+                android:padding="3dp"
+             android:visibility="gone"
+                app:met_floatingLabel="normal"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/shapeemail"
+                android:textColorHint="#fff"></Spinner>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPostalAddress"
+                android:ems="10"
+                android:id="@+id/priceedit"
+                android:visibility="gone"
+                android:drawableLeft="@drawable/ic_attach_money_black_24dp"
+                android:drawablePadding="10dp"
+                android:hint="Price"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                android:layout_margin="10dp"
+                android:padding="15dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/shapeemail"
+                android:layout_weight="0.10" />
+            <android.support.v7.widget.AppCompatButton
+                android:id="@+id/farmerregisterbtn"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:shadowColor="@android:color/transparent"
+                android:padding="15dp"
+                android:textStyle="bold"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/shapelogin"
+                android:text="Sign Up"/>
+
+
+        </LinearLayout>/
+    </ScrollView>
+</LinearLayout>
